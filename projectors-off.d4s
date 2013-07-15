@@ -1,0 +1,23 @@
+###########################################################################
+#DigiStar 4 Script
+#Created on: 07/15/2013
+#Created by: Wayne Bowles, SpaceQuest Planetarium
+#Last modified: 07/15/2013
+#Description: Turns off all projectors and lowers all AstroFX cove lighting
+###########################################################################
+
+
+00:00:00.0 system reset
+           system message "Please wait while I shut down projectors and lighting... Please wait..."
++1         projector1 off
+           projector2 off
+#Uncomment any additional projectors your planetarium may use
+#          projector3 off
+#          projector4 off
+#          projector5 off
+#          projector6 off
+#          projector7 off
+#          projector8 off
++0.5       astrofx command "covedown"
++1.0       system message "Have a great evening! See you tomorrow!!"
++0.5       script end
