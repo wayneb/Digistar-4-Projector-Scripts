@@ -1,0 +1,22 @@
+########################################################################
+#DigiStar 4 Script
+#Created on: 07/15/2013
+#Created by: Wayne Bowles, SpaceQuest Planetarium
+#Last modified: 07/15/2013
+#Description: Starts up all projects and brings up AstroFX cove lighting
+########################################################################
+
+00:00:00.0 system reset
+           system message "Good morning, powering up projectors... Please wait..."
++1         projector1 on
+           projector2 on
+#Uncomment any additional projectors your planetarium may use
+#          projector3 on
+#          projector4 on
+#          projector5 on
+#          projector6 on
+#          projector7 on
+#          projector8 on
++0.5       astrofx command "coveup"
++1.0       system message "Have a great day working in the Planetarium"
++0.5       script end
