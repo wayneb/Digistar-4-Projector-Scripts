@@ -1,0 +1,74 @@
+##############################################################################################################
+#Created: 07/01/2013
+#Modified: 07/01/2013
+#Author: Wayne Bowles, Frugal Photography & the SpaceQuest Planetarium at The Childrens Museum of Indianapolis
+##############################################################################################################
+
+How to install The Frugal Photography scripts and shows on your Digistar 4:
+
+QUICK SUMMARY:
+
+The overall concept is simple: using Windows Explorer, you'll copy files from our drive to the various D4 processors, creating new folders within a folder called "The Frugal Photography" on each computer's drive to hold them.
+
+On the audio computer, you'll find the "D4Content\Shows\" directory, then copy into it the appropriate "The Frugal Photography" folder containing the WAV files from our drive. On the video/graphics computer(s), you'll find the "D4Content\Shows\" directory, then copy into it the appropriate "The Frugal Photography" folder containing the MPG files. You'll do the same on the Host computer for the D4S script files.
+
+THE DETAILS:
+
+There are multiple computers in a D4 system; one for audio, more for video/graphics channels, and the host PC to organize and control everything. Audio files are saved on the audio computer, video on the video computer(s), and the scripts on the host.
+
+Start by attaching our drive to the USB port on the host PC.  Then, use Windows Explorer on the host to access the other PCs.  You'll find a list of them under the Network heading on the left of the Explorer window.
+
+TIP: the Windows keyboard shortcut for Explorer is <Win>-E.  
+
+TO COPY THE AUDIO:
+
+1. Using Windows Explorer, navigate to the "D4Content\Shows\" folder on the D4Audio PC.  You'll copy our audio files to this destination.
+
+2. On our drive, navigate to the show's "Audio" folder and open it.
+
+3. If you already have a "The Frugal Photography" folder at the destination (from having installed other FPP shows, for example), great! Just copy the folders containing the WAV files from our drive right into it.  If you don't, you can create one and copy the files at the same time; simply drag the entire "The Frugal Photography" folder containing the WAV files to your "D4Content\Shows\" folder (or use copy/paste).  
+
+NOTE: For our own internal consistency, we put a zero as the last character in the audio WAV filename. This tells us it's a multichannel WAV file, not a mono or stereo WAV.
+
+TO COPY THE VIDEO:
+
+4. Using Windows Explorer, navigate to the "D4Content\Shows\" folder on the first D4GP PC.  You'll copy our video files to this destination.
+
+5. On our drive, navigate to the show's "Video" folder and open it.
+
+6. If you already have a "The Frugal Photography" folder at the destination (from having installed other FPP shows, for example), great! Just copy the folders containing the MPG files from our drive right into it. If you don't, you can create one and copy the files at the same time; simply drag the entire "The Frugal Photography" folder containing the MPG files to your "D4Content\Shows\" folder (or use copy/paste).  
+
+Repeat the process for the other graphics processors.
+
+NOTE: D4 requires that the last character in a video filename, just before the extension, be a digit representing the channel number.  This is how each computer knows it's loading the right video in a multichannel D4 system.  The digit is NOT referenced in the show script -- just the name for the video. 
+
+TO COPY THE SHOW SCRIPTS:
+
+7. Using Windows Explorer, navigate to the "D4Content\Shows\" folder on the host.  You'll copy our script files to this destination.
+
+8. On our drive, navigate to the show's "Scripts" folder and open it.
+
+9. If you already have a "The Frugal Photography" folder at the destination (from having installed other FPP shows, for example), great! Just copy the folders containing the D4S files from our drive right into it. If you don't, you can create one and copy the files at the same time; simply drag the entire "The Frugal Photography" folder containing the D4S files to your "Shows\" folder (or use copy/paste).  
+
+At the end of the process, the Audio computer folder structure should look something like this (using Season Of Light as an example):
+
+D4Content\Shows\The Frugal Photography\example_show\ex_show0.wav
+D4Content\Shows\The Frugal Photography\example_trailer\ex_trailer0.wav
+
+The Video computers folder structures should look something like this:
+
+D4Content\Shows\The Frugal Photography\example_show\ex_show1.mpg
+D4Content\Shows\The Frugal Photography\example_trailer\ex_trailer1.mpg
+
+Your Host computer folder structure should look something like this:
+
+D4Content\Shows\The Frugal Photography\example_show\Example.d4s
+D4Content\Shows\The Frugal Photography\example_trailer\Trailer.d4s
+
+FINALLY, IT'S SHOW TIME:
+
+When you have finished copying files, select 'Open Show' from the main Digistar 4 toolbar to bring up the browse dialog.  Navigate to the new .d4s files and select the show you want.  TIP: You may also want to add the show script to your Digistar library.  See the Digistar documentation for information about how to do this.
+
+If you have more questions, please send e-mail to <info@thefrugalfoto.com> or <info@waynebowles.com>.
+
+######
