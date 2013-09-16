@@ -1,5 +1,5 @@
-digistar
-========
+Digistar 4 Projector Automation Scripts
+=======================================
 
 DigiStar 4 Scripts
 
